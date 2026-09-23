@@ -12,21 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppGrupo12">
 
-        <!-- Tu Pregunta 7 configurada como pantalla de inicio -->
+        <!-- Pregunta 7 como pantalla de inicio -->
         <activity
             android:name=".Pregunta7Activity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
 
-        <!-- MainActivity queda secundaria -->
+        <!-- MainActivity -->
         <activity
             android:name=".MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Pregunta 4 -->
+        <activity
+            android:name=".Pregunta4Activity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
