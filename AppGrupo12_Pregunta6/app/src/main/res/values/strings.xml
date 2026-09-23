@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AppGrupo12</string>
+    <string name="resultado_coworking">Horas totales: %1$s\nHoras excedentes: %2$s\nMonto extra: S/ %3$s</string>
+</resources>
