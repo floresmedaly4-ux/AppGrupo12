@@ -3,6 +3,9 @@ plugins {
 }
 
 android {
+    buildFeatures {
+        viewBinding = true
+    }
     namespace = "pe.edu.cibertec.appgrupo12"
     compileSdk {
         version = release(37)
